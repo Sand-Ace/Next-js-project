@@ -1,13 +1,10 @@
-import Link from "next/link";
+import classes from "./page.module.css";
 
 export default function MealsPage() {
   return (
     <>
-      <h1>This is MealsPage</h1>
-      <p>
-        <Link href="/meals/random-1">random-1</Link>
-        <Link href="/meals/random-2">random-2</Link>
-      </p>
+      <header></header>
+      <main></main>
     </>
   );
 }
